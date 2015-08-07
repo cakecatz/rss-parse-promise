@@ -1,5 +1,7 @@
 # RSS Parser Promise
 
+[![Circle CI](https://circleci.com/gh/cakecatz/rss-parser-promise.svg?style=svg)](https://circleci.com/gh/cakecatz/rss-parser-promise)
+
 > RSS feed parser
 
 ## Usage
