@@ -1,5 +1,6 @@
 FeedParser = require 'feedparser'
 request = require 'request'
+Promise = require('es6-promise').Promise
 
 module.exports = rssParse = (url) ->
   new Promise (resolve, reject) ->
