@@ -6,11 +6,15 @@
 
 ## Usage
 ```
-rssParser = require 'rss-parser-promise'
-rssParser('http://www.echojs.com/rss').then (value) ->
-  # write your code here
-.catch (error) ->
-  console.err error
+var rssParser = require('rss-parser-promise');
+
+rssParser('http://www.echojs.com/rss')
+  .then((value) => {
+    # write your code here 
+  })
+  .catch((error) => {
+    console.err(error);
+  })
 ```
 
 ## License
