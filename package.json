@@ -1,0 +1,31 @@
+{
+  "name": "rss-parse-promise",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "rss",
+    "feed",
+    "parse",
+    "parser",
+    "promise"
+  ],
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register",
+    "prepublish": "coffee -c index.coffee"
+  },
+  "author": "Ryo Narita<mail.ryonarita@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "feedparser": "^1.1.3",
+    "request": "^2.60.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "coffee-script": "^1.9.3",
+    "http": "0.0.0",
+    "mocha": "^2.2.5",
+    "rss": "^1.1.1",
+    "url": "^0.10.3"
+  }
+}
